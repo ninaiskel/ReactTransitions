@@ -1,0 +1,42 @@
+:root {
+  --grey: #f4f4f4;
+  --grey-dark: #e8ecf1;
+  --first: #b5cfd8;
+  --second: #7393a7;
+  --third: #6c737e;
+  --text: #999;
+}
+
+body {
+  background: var(--third);
+}
+.App {
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  color: var(--text);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+figure {
+  margin: 0;
+}

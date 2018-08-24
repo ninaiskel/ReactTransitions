@@ -1,0 +1,9 @@
+.button-home {
+  align-items: center;
+  background: var(--third);
+  display: flex;
+  height: auto;
+  justify-content: center;
+  justify-self: stretch;
+  width: auto;
+}

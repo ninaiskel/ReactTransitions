@@ -1,0 +1,82 @@
+
+/* .transition-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.transition-wrapper .transition-item {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.detail-page {
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  height: 100vh;
+  transition: transform 0.5s, opacity 0.4s;
+}
+
+.detail-page.transition-appear {
+  opacity: 0;
+  transform: translate3d(100%, 0, 0);
+}
+
+.detail-page.transition-appear.transition-appear-active {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.detail-page.transition-leave {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.detail-page.transition-leave.transition-leave-active {
+  opacity: 0;
+  transform: translate3d(100%, 0, 0);
+} */
+
+
+.detail-page {
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  height: calc(100vh - 40px);
+  transition: transform 0.5s, opacity 0.4s;
+}
+
+.slide-enter {
+  opacity: 0;
+  transform: translate3d(100%, 0, 0);
+}
+
+.slide-enter-active {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.slide-exit-active {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.slide-leave {
+  opacity: 0;
+  transform: translate3d(100%, 0, 0);
+}
+
+.fade-enter {
+  opacity: 0.8;
+  transform: scale(0.3);
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+
+/* fade-enter, fade-enter-active, fade-enter-done, fade-exit, fade-exit-active, fade-exit-done, fade-appear, and fade-appear-active */
